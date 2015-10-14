@@ -1,0 +1,4 @@
+basket=['aple','bnna','mango']
+print dict(enumerate(basket))
+print list(enumerate(basket))
+print tuple(enumerate(basket))

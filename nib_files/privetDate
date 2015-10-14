@@ -1,0 +1,25 @@
+class Acc:
+    __ano=6246558998
+    ifsc=954
+    def __Accinfo(self):
+        print "my account info id %d",Acc.__ano
+    def binfo(self):
+        print "My branch NEFT code is %d",Acc.ifsc
+a=Acc()
+print a.ifsc
+#print a.__ano
+a.binfo()
+print Acc._Acc__ano
+a._Acc__Accinfo()
+
+class Bcc(Acc):
+    __ano=7878989
+    ifsc=896
+    def __Accinfo(self):
+        print "my BCC account info id %d",Bcc.__ano
+    def binfo(self):
+        print "My BCC branch NEFT code is %d",Bcc.ifsc
+b=Bcc()
+print b.ifsc
+
+    

@@ -1,0 +1,12 @@
+<data>
+    <country name="india">
+        <rank updated="yes">3</rank>
+        <year>2015</year>
+        <neighbor name="pak">pak</neighbor>
+    </country>
+    <country name="pakistan">
+        <rank updated="yes">10</rank>
+        <year>2089</year>
+        <neighbor name="pak">ind</neighbor>
+    </country>
+</data>

@@ -1,0 +1,11 @@
+def funct(*arg,**karg):
+    print arg
+    print karg
+f=funct
+f(3,4,'apple',a=5,b=9,c='cat')
+
+
+
+
+
+	

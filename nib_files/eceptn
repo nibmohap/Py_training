@@ -1,0 +1,6 @@
+try:
+    x=int(row_input("enter some data:"))
+except ValueError as e:
+    print "Enter integer data only",e
+else:
+    print "No Exception :",x

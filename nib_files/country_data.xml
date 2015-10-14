@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<data>
+    <country name="india">
+        <rank >2</rank>
+        <year>2015</year>
+        <neighbor name="pak">pak</neighbor>
+    </country>
+    <country name="pakistan">
+        <rank >9</rank>
+        <year>2089</year>
+        <neighbor name="pak">ind</neighbor>
+    </country>
+</data>

@@ -1,0 +1,4 @@
+seq=range(1,25)
+print seq
+fun1=lambda n: n%2 !=0 and n%3 !=0
+print filter(fun1,seq)

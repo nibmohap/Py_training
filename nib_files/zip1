@@ -1,0 +1,14 @@
+que=['name','loc','add','mob','email']
+ans=['surendra','bng','marathali','9886667','sur.tal@hh.com']
+for q,a in zip(que,ans):
+    print "wht's ur %s, it is %s"%(q,a)
+print zip(que,ans)
+z=zip(que,ans)
+phone=dict(z)
+k=phone.keys()
+v=phone.values()
+z=zip(k,v)
+print z
+print dict(z)
+
+

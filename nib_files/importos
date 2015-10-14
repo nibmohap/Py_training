@@ -1,0 +1,38 @@
+class Capgemini:
+    brcode=111
+    def __init__(self,city,state,country):
+        print "i m constructor"
+        self.c=city
+        self.s=state
+        self.co=country
+        Capgemini.brcode+=1
+        print "branch code is:",Capgemini.brcode
+        
+    def info(self):
+        print "i m in capgy"
+        print "city is %s"%(self.c)
+        print "state is %s"%(self.s)
+        print "country is %s"%(self.co)
+a=Capgemini('bnglore','india','bng')
+a.info()
+
+class Employee(Capgemini):
+    def __init__(self,city,state,country,ename):
+        self.en=ename
+        Capgemini.__init__(self,city,state,country)
+    def info(self):
+        Capgemini.info(self)
+        print "Employee name is %s"%self.en
+b=Employee('bnglr','karn','india','nibedita')
+b.info()
+
+class Account(Employee):
+    def __init__(self,city,state,country,ename,salary):
+        self.sal=salary
+        Employee.__init__(self,city,state,country,ename)
+    def info(self):
+        print "employee  SAl is %s"%(self.sal)
+c=Account('bnglr','karn','india','nibedita','122333')
+c.info()
+        
+

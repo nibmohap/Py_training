@@ -1,0 +1,7 @@
+seq1=range(1,5)
+seq2=range(6,10)
+seq3=range(11,15)
+print seq1,seq2,seq3
+add=lambda x,y,z:x+y+z
+x=map(add,seq1,seq2,seq3)
+print x

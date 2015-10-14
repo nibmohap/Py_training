@@ -1,0 +1,18 @@
+'''This is NetApp module'''
+version=1.0
+def socket1():
+    print 'connect to server'
+def bind():
+    print 'bind ip address and port num'
+def listen():
+    print 'listen to total num of client'
+def send():
+    print 'welcome to net app module'
+def receive():
+    print 'you are connected'
+def end():
+    print 'connection end'
+
+
+
+    

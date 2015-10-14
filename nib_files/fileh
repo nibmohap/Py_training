@@ -1,0 +1,9 @@
+data='''this is jus a data.
+...kjjhfgfdfd.
+...kjjhghghg.
+....jhjhjhjh'''
+f=open('test.txt','w')
+f.write(data)
+f1=open('test.txt')
+x=f1.read()
+print x

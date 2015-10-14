@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Ordering Notice</title>
+		<meta name="description" content="">
+		<meta name="author" content="admin">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body bgcolor="yellow">
+		<div>
+			<header>
+				<h1>Ordering Notice</h1>
+			</header>
+			<p>Dear {{person_name}},</p>
+			<p>Thanx for placing order from {{company}}.
+				its scheduled toship on {{ship_date|date:"Fj,Y"}}.
+				</p>
+			<ul>
+				{%for item in item_list%}
+				<li>{{item}}</li>
+				{%endfor%}
+			</ul>
+			{%if ordered_warenty%}
+			<p>
+				Your warranty info ll be included in the packaging.
+			</p>
+			{%else%}
+			<p>you did not order a warranty,so u r in ur own risk.</p>
+			{%endif%}
+			<p>sincerely<br/>
+				{{company}}
+			</p>
+			
+		</div>
+	</body>
+</html>

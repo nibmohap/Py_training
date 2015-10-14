@@ -1,0 +1,10 @@
+while True:
+    x,y,z=input("Enter x,y,z:")
+    if x>y and x>z:
+        print 'x is greater',x
+    elif y>z:
+        print 'y is greater',y
+    else :
+        print 'z is greater',z
+        break
+print "outside loop"    

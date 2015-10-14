@@ -1,0 +1,4 @@
+fun=lambda n:n+1
+print fun
+print fun(3)
+print fun(6)

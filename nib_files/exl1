@@ -1,0 +1,13 @@
+#print [(x,x**3) for x in range(1,10)]
+#print [(x,x**3) for x in range(2,25) if x%2 !=0 and x%3 !=0]
+words=['abc','def','ghi']
+#print [(ch,ch.upper()) for word in words for ch in word]
+for word in words:
+    for ch in word:
+        print [ch,ch.upper()]
+
+
+
+#print phone
+#{k.upper():v for k,v in phone.items()}
+    
